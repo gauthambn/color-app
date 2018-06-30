@@ -19,6 +19,7 @@ color_codes = {
 
 #color = os.environ.get('APP_COLOR') or random.choice(["red","green","blue"])
 color = os.environ.get('APP_COLOR') or random.choice(["white"])
+#change done to test webhook
 #color = os.environ.get('APP_COLOR') or random.choice(["yellow","pink","purple"])
 
 @app.route("/")
